@@ -1,0 +1,50 @@
+#a=int(input("enter mark1 :"))
+#b=int(input("enter mark2 :"))
+#c=int(input("enter mark3 :"))
+#d=int(input("enter mark4 :"))
+#e=int(input("enter mark5 :"))
+#f=int(input("enter mark6 :"))
+
+
+
+lst=[]
+n=int(input ("number of subject:"))
+for i in range(0,n):
+    mark=int(input())
+    lst.append(mark)
+print(lst)
+#if lst[n]>
+
+#sum=a+b+c+d+e+f
+#avg=sum/6
+#percentage=(sum/600)*100
+def Average(lst):
+    return sum(lst)/len(lst)
+avg=Average(lst)
+#print("percentage is:",percentage)
+print("average of subjects is:",avg)
+if (avg>=75)and(avg<=90):
+    print("average performance")
+elif (avg>90):
+    print("good performance")
+elif(avg>=65)and(avg<75):
+    print("give a chance")
+elif(avg<65):
+    print("fail")
+
+#if(a>95) or(b>95)or(c>95)or (d>95)or (e>95)or (f>95):
+    #print(" gold medal")
+count=0
+for i in range(len(lst)):
+    if(lst[i]>=95):
+       count=count+1
+    if count>=3:
+        print("gold medal")
+rep=0
+for i in range(len(lst)):
+    if(lst[i]<=60):
+       rep =rep+1
+    if rep>=3 and (avg<65) :
+        print("fail")
+if (rep>=3):
+    print("fail")
