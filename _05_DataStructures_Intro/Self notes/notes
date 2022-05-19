@@ -1,0 +1,58 @@
+
+# Python string:
+# string is a sequence of characters enclosed in quotes(single,double,triple)
+#  string slicing-string cann be sliced for getting a part of the string
+#   name=SHETTY
+#   012345        LENGHTH=6
+#   -6-5-4-3-2-1
+#   Syntax:
+#   s1=name[ind_start:ind_end]
+#   s1=[0:3]  returns SHE
+#   s1=[1:6:2]  returns HTY
+#   S1=[0:6]     returns SHETTY
+
+#   String functions:
+#   1)len()
+#   2)string.endswith()
+#   3)string count()
+#   4)string.capitalize()
+#   5)string.find()
+#   6)string.replace
+
+
+# Python List:
+# list is container to store a set of values of any data type
+# list=['fruits','Prathvi',5,True]
+ 
+# list indexing
+# l1=[7,10,"shetty"]
+# l1[0]=7
+# l1[1]=10
+# l1[2]=shetty
+# l1[10]=error 
+# l1[0:2]=[7,10]
+
+
+#TUPLES In Pyhton 
+#Tuple is an immutable data type in python
+#a=() =>empty tuple
+#Tuples are written with round brackets ()
+
+#dictionary
+#collection of key-value pair
+# syntax: a={"key":"value",
+#            "name":"prathvi"
+#            "age":"25"}
+#properties of a dictionaries
+#1)it is unordered
+#2)it is mutable
+#3)it is indexed
+#4)cannot contain duplicate key
+
+#set is a collection of non repetitive data
+# s=set()   empty set
+# properties of set
+#1) set are unordered
+#2) set are unindexed
+#3) there is no way to change items in sets
+#4) sets cannot contain duplicate

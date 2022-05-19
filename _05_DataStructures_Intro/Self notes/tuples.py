@@ -1,0 +1,12 @@
+a=10
+b=10
+c=20
+tuple=(a,b,c)
+print(tuple)
+print(type(tuple))
+print(tuple.count(10))
+print(len(tuple))
+print(max(tuple))
+print(min(tuple))
+print(sum(tuple))
+#print(tuple.clear())
