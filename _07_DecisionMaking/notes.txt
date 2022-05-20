@@ -1,0 +1,28 @@
+if else and elif statement are a multiway decision taken by our progrm due to certain conditions in our code
+syntax:
+if (condition1):
+    print("yes")
+elif(condition2):
+    print("no")
+else:
+    print("maybe")
+
+Relational opertors: are used to evaluate conditions inside the if statement. ==,>=,<=.
+logical operators: and ,or ,not
+ elif clause: same as elseif. if can be chained with lot of elif statement follwed by else statement
+  if(coditions1):
+    #code
+elif(conditions2):
+    #code
+elif(conditions3):
+    #code
+..
+..
+else:
+     code
+there can be any no of elif statement
+last else is executed only if all the conditions inside elif fail.
+
+
+
+

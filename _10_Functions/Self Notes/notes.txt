@@ -1,0 +1,13 @@
+Function is a group of statements performing a specific task
+Function can be reused by the programmer in a given program any number of
+def keyword
+syntax:
+def fun1():
+  print("hello")
+
+types:
+1)Built in -> len(),range(),print()
+2)user defined
+
+
+recurrsion-> function which calls itself 
